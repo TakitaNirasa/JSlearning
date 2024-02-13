@@ -30,7 +30,7 @@ const requestListener = function (req, res)
     }
     console.log ("Get html");
     res.setHeader('Content-Type', 'text/html');
-    fs.createReadStream(indexHtml).pipe(res);
+    fs.createReadStream(htmlPath).pipe(res);
     // end  вызываесяи из пайпа,на на всякй случай эта строка тут остаётся
     res.end ();
 }
