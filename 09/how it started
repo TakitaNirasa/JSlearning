@@ -1,0 +1,14 @@
+Повторял по этой обучалке
+https://www.youtube.com/watch?v=p3RFMEixUOE
+
+npm init -y
+npm install express pg
+npm i -D nodemon
+Создал index.js
+готово
+
+запуск
+npm run start
+npm run dev
+
+Для работы без перезагрузки используется nodemon
