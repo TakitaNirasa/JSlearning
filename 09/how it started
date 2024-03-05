@@ -12,3 +12,11 @@ npm run start
 npm run dev
 
 Для работы без перезагрузки используется nodemon
+
+Для создания БД
+sudo -u postgres psql
+CREATE DATABASE node_postgres;
+\connect node_postgres
+
+В sql# копирую бд из database.sql
+
