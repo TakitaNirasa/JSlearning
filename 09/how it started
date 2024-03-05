@@ -18,5 +18,8 @@ sudo -u postgres psql
 CREATE DATABASE node_postgres;
 \connect node_postgres
 
+\dt отображение содержимого
+select * from person; - отобрахить содержимое бд person
+
 В sql# копирую бд из database.sql
 
