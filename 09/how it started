@@ -23,3 +23,5 @@ select * from person; - отобрахить содержимое бд person
 
 В sql# копирую бд из database.sql
 
+отладка через postman
+
