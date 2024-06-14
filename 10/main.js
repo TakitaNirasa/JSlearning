@@ -12,5 +12,6 @@ console.log ("This is main.js");
 console.log (module);
 
 console.log ("Num in mod =  ",num);
+
 // Есть доступ к func
 mod.func ();

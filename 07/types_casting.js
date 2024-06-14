@@ -25,6 +25,7 @@ const aFunc = () =>
 {
     console.log ("стрелочная функция");
 }
+
 aFunc ();
 //err
 try {
@@ -37,6 +38,7 @@ const objectA =
 {
     elementA: "elem"
 };
+
 // Можно менять
 objectA.elementA = "ss";
 // Будет ошибка
